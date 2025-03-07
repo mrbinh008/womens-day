@@ -182,14 +182,20 @@ const CustomHeart = ({color}) => (
     </svg>
 );
 
+// const messages = [
+//     "Hế lô người đẹp làm mình ngẩn ngơ! 👋✨",
+//     "Hôm nay của người đẹp thế nào, chắc quà ngập nhà 🛍️, lời chúc đầy inbox 📩, mỏi tay mở luôn hả??",
+//     "Mình chúc mọi lời chúc xịn sò hôm nay thành hiện thực nha, đặc biệt là chúc ‘trúng xổ số’ từ mình 🎉💰!",
+//     "Ngày 8/3 nhớ xinh đẹp hết nấc 👗💃, vui vẻ max ping 🎈, việc gì mệt cứ để thế giới lo, không thì mình ‘gánh’ cho nha 😉.",
+//     "Ai hỏi bao giờ lấy chồng, cứ giả vờ ngáp to 😴 hoặc hét ‘Tui còn bận đẹp!’ nhé 😂. Chúc mừng 8/3, bạn iuu mình! 🎀🌸",
+// ];
+
 const messages = [
-    "Hế lô người đẹp!",
-    "Gửi đến người phụ nữ tuyệt vời nhất trong cuộc đời anh, em mang đến niềm vui và hạnh phúc cho mỗi ngày.",
-    "Nụ cười của em thắp sáng thế giới của anh, và tình yêu của em lấp đầy trái tim anh bằng sự ấm áp.",
-    "Vào ngày đặc biệt này, anh muốn em biết em có ý nghĩa như thế nào đối với anh.",
-    "Em không chỉ là bạn gái của anh, em là bạn thân nhất của anh, là người bạn tâm giao và là tất cả của anh.",
-    "Anh trân trọng từng khoảnh khắc chúng ta bên nhau, và anh mong muốn tạo ra nhiều kỷ niệm đẹp hơn nữa.",
-    "Chúc mừng Ngày Phụ nữ, tình yêu của anh! Em xứng đáng có được tất cả hạnh phúc trên thế giới này."
+    "Hello, gorgeous who leaves me speechless! 👋✨",
+    "How’s your day going, beauty? Probably drowning in gifts 🛍️ and inbox full of wishes 📩, hands tired from opening them, huh???",
+    "I wish all the awesome blessings today come true, especially my ‘win the lottery’ wish for you 🎉💰!",
+    "On this 8-3, remember to be stunningly beautiful 👗💃, happy to the max 🎈, and let the world handle the tough stuff—or I’ll carry it for you 😉.",
+    "If anyone asks when you’re getting married, just fake a big yawn 😴 or shout ‘I’m too busy being fabulous!’ 😂. Happy 8/3, my dearest! 🎀🌸",
 ];
 
 // Then update the MessageCard component to accept and pass the prop:
@@ -417,7 +423,7 @@ const MessageCard = ({marginBottom}) => {
                                 repeatType: "reverse"
                             }}
                         >
-                            I Love You
+                            🌹Happy women's day!🌹
                         </motion.div>
                     </FinalMessage>
                 </FullscreenOverlay>
